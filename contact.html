@@ -51,8 +51,8 @@
           <input type="text" id="name" name="name" required>
         </div>
         <div class="field">
-          <label for="company">Phone Number</label>
-          <input type="text" id="phone" name="company">
+          <label for="number">Phone Number</label>
+          <input type="number" id="number" name="number">
         </div>
         <div class="field">
           <label for="email">Email*</label>
@@ -71,8 +71,9 @@
           <label for="message">Write Message*</label>
           <textarea id="message" name="message" required></textarea>
         </div>
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
         <button type="submit" class="btn btn-amber" style="justify-self:start;">Send message</button>
-        <p class="form-note" style="font-size:13px;color:var(--mist);margin-top:6px;"></p>
+        <!-- <p class="form-note" style="font-size:13px;color:var(--mist);margin-top:6px;"></p> -->
       </form>
     </div>
 
