@@ -205,6 +205,7 @@ section.on-navy{ background:var(--navy); color:#fff; }
 section.on-navy h2, section.on-navy h3{ color:#fff; }
 section.on-navy p{ color:var(--mist); }
 section.on-navy-deep{ background:var(--navy-deep); color:#fff; }
+section.on-navy-deep h2, section.on-navy-deep h3{ color:#fff; }
 
 /* divisions */
 .division-grid{ display:grid; grid-template-columns:1fr 1fr; gap:28px; }
