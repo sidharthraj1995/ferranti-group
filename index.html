@@ -46,7 +46,7 @@
       </div>
 
       <div class="sld-wrap" aria-hidden="false" role="img" aria-label="Diagram showing Ferranti Group connected to its two divisions, Ferranti Power and Ferranti Consulting, which together serve the Power, Industrial, Infrastructure and Rail &amp; Aviation sectors.">
-        <svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg">
           <!-- group node -->
           <rect x="190" y="10" width="140" height="46" class="sld-node-box hi" rx="2"/>
           <text x="260" y="38" text-anchor="middle" class="sld-node-label strong">FERRANTI GROUP</text>
@@ -59,38 +59,38 @@
 
           <!-- branch to power -->
           <path d="M90,90 V126" class="sld-line"/>
-          <rect x="20" y="126" width="140" height="44" class="sld-node-box" rx="2"/>
+          <rect x="10" y="126" width="160" height="44" class="sld-node-box" rx="2"/>
           <text x="90" y="153" text-anchor="middle" class="sld-node-label strong">FERRANTI POWER</text>
 
           <!-- branch to consulting -->
           <path d="M430,90 V126" class="sld-line"/>
-          <rect x="360" y="126" width="140" height="44" class="sld-node-box" rx="2"/>
+          <rect x="350" y="126" width="160" height="44" class="sld-node-box" rx="2"/>
           <text x="430" y="153" text-anchor="middle" class="sld-node-label strong">FERRANTI CONSULTING</text>
 
-          <!-- power sub-branches -->
-          <path d="M90,170 V196 M40,196 H140 M40,196 V220 M90,196 V220 M140,196 V220" class="sld-line"/>
-          <rect x="4" y="220" width="72" height="34" class="sld-node-box" rx="2"/>
-          <text x="40" y="241" text-anchor="middle" class="sld-node-label">EPC</text>
-          <rect x="54" y="264" width="72" height="34" class="sld-node-box" rx="2" transform="translate(0,0)"/>
-          <text x="90" y="285" text-anchor="middle" class="sld-node-label">O&amp;M</text>
-          <rect x="104" y="220" width="72" height="34" class="sld-node-box" rx="2"/>
-          <text x="140" y="241" text-anchor="middle" class="sld-node-label">PROCUREMENT</text>
+          <!-- power sub-branches: EPC / PROCURE / O&M -->
+          <path d="M90,170 V196 M32,196 H148 M32,196 V220 M90,196 V220 M148,196 V220" class="sld-line"/>
+          <rect x="7" y="220" width="50" height="34" class="sld-node-box" rx="2"/>
+          <text x="32" y="241" text-anchor="middle" class="sld-node-label small">EPC</text>
+          <rect x="65" y="220" width="50" height="34" class="sld-node-box" rx="2"/>
+          <text x="90" y="241" text-anchor="middle" class="sld-node-label small">PROCURE</text>
+          <rect x="123" y="220" width="50" height="34" class="sld-node-box" rx="2"/>
+          <text x="148" y="241" text-anchor="middle" class="sld-node-label small">O&amp;M</text>
 
-          <!-- consulting sub-branches -->
-          <path d="M430,170 V196 M380,196 H480 M380,196 V220 M430,196 V220 M480,196 V220" class="sld-line"/>
-          <rect x="344" y="220" width="72" height="34" class="sld-node-box" rx="2"/>
-          <text x="380" y="241" text-anchor="middle" class="sld-node-label">FEED</text>
-          <rect x="394" y="264" width="72" height="34" class="sld-node-box" rx="2"/>
-          <text x="430" y="285" text-anchor="middle" class="sld-node-label">AUDIT</text>
-          <rect x="444" y="220" width="72" height="34" class="sld-node-box" rx="2"/>
-          <text x="480" y="241" text-anchor="middle" class="sld-node-label">OWNER'S ENG.</text>
+          <!-- consulting sub-branches: FEED / AUDIT / OWNER'S ENG. -->
+          <path d="M430,170 V196 M372,196 H488 M372,196 V220 M430,196 V220 M488,196 V220" class="sld-line"/>
+          <rect x="347" y="220" width="50" height="34" class="sld-node-box" rx="2"/>
+          <text x="372" y="241" text-anchor="middle" class="sld-node-label small">FEED</text>
+          <rect x="405" y="220" width="50" height="34" class="sld-node-box" rx="2"/>
+          <text x="430" y="241" text-anchor="middle" class="sld-node-label small">AUDIT</text>
+          <rect x="463" y="220" width="50" height="34" class="sld-node-box" rx="2"/>
+          <text x="488" y="241" text-anchor="middle" class="sld-node-label small">O.ENG</text>
 
-          <!-- sector bus at bottom -->
-          <path d="M90,298 V330 M430,298 V330 M90,330 H430" class="sld-line"/>
-          <circle cx="260" cy="330" r="3" class="sld-dot"/>
-          <path d="M260,330 V352" class="sld-line"/>
-          <rect x="120" y="352" width="280" height="34" class="sld-node-box" rx="2"/>
-          <text x="260" y="373" text-anchor="middle" class="sld-node-label">POWER · CEMENT · STEEL · RAIL · WATER · DATA CENTERS</text>
+          <!-- merge back to a sector bus -->
+          <path d="M90,254 V280 M430,254 V280 M90,280 H430" class="sld-line"/>
+          <circle cx="260" cy="280" r="3" class="sld-dot"/>
+          <path d="M260,280 V302" class="sld-line"/>
+          <rect x="40" y="302" width="440" height="34" class="sld-node-box" rx="2"/>
+          <text x="260" y="323" text-anchor="middle" class="sld-node-label">POWER · CEMENT · STEEL · RAIL · WATER · DATA CENTERS</text>
         </svg>
       </div>
     </div>

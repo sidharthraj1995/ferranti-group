@@ -183,6 +183,7 @@ nav.primary a.active{ color:var(--amber); }
   font-family:var(--mono); font-size:11px; letter-spacing:0.05em; fill:var(--mist); text-transform:uppercase;
 }
 .sld-node-label.strong{ fill:#fff; font-size:12.5px; }
+.sld-node-label.small{ font-size:9px; letter-spacing:0.02em; }
 .sld-line{ stroke:var(--steel); stroke-width:1.5; fill:none; }
 .sld-pulse{
   stroke:var(--amber); stroke-width:2.5; fill:none;
@@ -251,8 +252,14 @@ section.on-navy-deep{ background:var(--navy-deep); color:#fff; }
 .geo-list span:last-child{ border-right:none; }
 
 /* partners strip */
-.partner-strip{ display:flex; flex-wrap:wrap; gap:34px; align-items:center; opacity:0.85; }
-.partner-strip img{ height:34px; width:auto; filter:grayscale(1); }
+.partner-strip{ display:flex; flex-wrap:wrap; gap:22px; align-items:center; margin-top:28px; }
+.partner-strip a{
+  background:#fff; border-radius:3px; padding:10px 16px;
+  display:flex; align-items:center; justify-content:center;
+  opacity:0.9; transition:opacity .15s ease;
+}
+.partner-strip a:hover{ opacity:1; }
+.partner-strip img{ height:26px; width:auto; max-width:110px; object-fit:contain; filter:grayscale(1); }
 
 /* quote / vision block */
 .vision-block{
