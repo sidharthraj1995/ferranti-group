@@ -50,9 +50,7 @@
     <div class="wrap two-col">
       <div>
         <div class="eyebrow">SEND A MESSAGE</div>
-        <form class="contact-form" action="https://api.web3forms.com/submit" method="post">
-          <input type="hidden" name="access_key" value="4e7a24d2-dbb3-4c0c-aea1-5d77dea9171a">
-
+        <form class="contact-form" action="https://formspree.io/f/xojorrdj" method="post">
           <div class="field">
             <label for="name">Name*</label>
             <input type="text" id="name" name="name" required>
@@ -79,9 +77,10 @@
             <label for="message">Write Message*</label>
             <textarea id="message" name="message" required></textarea>
           </div>
-          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+          <input type="hidden" name="_subject" value="New inquiry — Ferranti Group contact form">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
           <button type="submit" class="btn btn-amber" style="justify-self:start;">Send message</button>
-          <!-- <p class="form-note" style="font-size:13px;color:var(--mist);margin-top:6px;"></p> -->
+          <p class="form-note" style="font-size:13px;color:var(--mist);margin-top:6px;"></p>
         </form>
       </div>
 

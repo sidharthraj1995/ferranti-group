@@ -9,15 +9,5 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Contact form: no backend wired up yet — friendly placeholder behavior.
-  var form = document.querySelector('.contact-form');
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var note = form.querySelector('.form-note');
-      if (note) {
-        note.textContent = 'Thanks — this form needs an email service connected (see the setup notes) before messages will actually send.';
-      }
-    });
-  }
+  
 });
