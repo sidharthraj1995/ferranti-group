@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ferrantipower.com/sitemap.xml
